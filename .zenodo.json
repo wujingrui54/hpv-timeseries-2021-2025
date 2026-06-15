@@ -1,0 +1,105 @@
+{
+  "title": "HPV high-risk genotype time-series in Xi'an, China (2021-2025): analysis code and reproducibility archive",
+  "version": "1.0.5",
+  "publication_date": "2026-06-14",
+  "upload_type": "software",
+  "description": "<p>Analysis code and aggregate outputs for a 5-year retrospective single-centre cohort analysis of 18,185 women undergoing cervical HPV genotyping at Norinco General Hospital, Xi'an, China, between 5 January 2021 and 31 December 2025.</p><p><strong>Statistical methods:</strong> Wilson 95% CI; log-linear AAPC with 1500-replicate binomial bootstrap; pandemic vs post-pandemic Prevalence Ratio with log-PR Wald CI; direct age standardisation (12 5-year strata); Mann-Kendall; Cochran-Armitage; joinpoint regression (exploratory); external age-standardisation to the WHO World Standard Population; harmonic seasonal Poisson/negative-binomial GLM.</p><p><strong>Outputs:</strong> 16-sheet results workbook (Excel) + 7 publication-quality figures (incl. a 3-panel methodology-upgrade figure).</p><p><strong>Associated manuscript:</strong> Wu et al., 'Shifting oncogenic HPV ecology after COVID-19: emergence of HPV-51 and decoupling of HPV-16 in a cervical-cancer screening cohort in Xi'an, China (2021–2025)'. Under peer review; DOI to be added upon publication.</p><p><strong>Ethics:</strong> Norinco General Hospital IRB approval No. 202601271338000343089 (project code 26z03, 27 January 2026). Raw individual-level patient data are not included due to patient privacy and institutional data-governance regulations; aggregated outputs are fully provided.</p><p><strong>Funding:</strong> Scientific Research Project of Xi'an Medical College (Grant No. 26z03).</p>",
+  "creators": [
+    {
+      "name": "Wu, Jingrui",
+      "affiliation": "College of Medical Technology, Xi'an Medical College, Xi'an, Shaanxi, China; and Department of Public Health, Kyungwoon University, Gumi, Gyeongsangbuk-do, Republic of Korea",
+      "orcid": "0009-0006-0123-808X"
+    },
+    {
+      "name": "Yang, Haihui",
+      "affiliation": "College of Medical Technology, Xi'an Medical College, Xi'an, Shaanxi, China",
+      "orcid": "0009-0005-6474-2278"
+    },
+    {
+      "name": "Zhi, Jinhua",
+      "affiliation": "College of Medical Technology, Xi'an Medical College, Xi'an, Shaanxi, China",
+      "orcid": "0009-0008-3118-6000"
+    },
+    {
+      "name": "Yan, Jinjin",
+      "affiliation": "Department of Basic Sciences, Xi'an Medical College, Xi'an, Shaanxi, China",
+      "orcid": "0009-0007-4539-9667"
+    },
+    {
+      "name": "Wang, Wen",
+      "affiliation": "Clinical Medical College, Xi'an Medical College, Xi'an, Shaanxi, China",
+      "orcid": "0009-0006-8844-0976"
+    },
+    {
+      "name": "Kim, Ki-Hyun",
+      "affiliation": "Department of Physical Therapy, Kyungwoon University, Gumi, Gyeongsangbuk-do, Republic of Korea",
+      "orcid": "0009-0005-4961-9685"
+    },
+    {
+      "name": "Yang, Wenping",
+      "affiliation": "Department of Nursing, Kyungwoon University, Gumi, Gyeongsangbuk-do, Republic of Korea",
+      "orcid": "0009-0000-3952-984X"
+    },
+    {
+      "name": "Fang, Le",
+      "affiliation": "Department of Clinical Laboratory, Norinco General Hospital, Xi'an, Shaanxi, China",
+      "orcid": "0009-0009-3486-6076"
+    }
+  ],
+  "keywords": [
+    "human papillomavirus",
+    "HPV",
+    "HPV-51",
+    "HPV-16",
+    "cervical cancer screening",
+    "COVID-19",
+    "post-pandemic",
+    "annual percentage change",
+    "AAPC",
+    "bootstrap",
+    "Wilson confidence interval",
+    "joinpoint regression",
+    "Cochran-Armitage trend test",
+    "age standardisation",
+    "epidemiology",
+    "China",
+    "Norinco General Hospital",
+    "single-center cohort"
+  ],
+  "license": "CC-BY-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "subjects": [
+    {
+      "term": "Epidemiology",
+      "identifier": "http://id.loc.gov/authorities/subjects/sh85044053"
+    },
+    {
+      "term": "Papillomavirus infections",
+      "identifier": "http://id.loc.gov/authorities/subjects/sh87005820"
+    },
+    {
+      "term": "Cervix uteri",
+      "identifier": "http://id.loc.gov/authorities/subjects/sh85021907"
+    }
+  ],
+  "grants": [
+    {
+      "title": "Scientific Research Project of Xi'an Medical College (Grant No. 26z03)"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "open-research"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20256624",
+      "relation": "isVersionOf",
+      "scheme": "doi",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Funded by the Xi'an Medical College Scientific Research Project (Grant No. 26z03). Reproducibility archive accompanying the manuscript under peer review. v1.0.5: adds three methodology-upgrade analyses (external WHO age-standardisation, harmonic seasonal GLM, monthly joinpoint) via code/methodology_upgrade.py, figures/FigS6_methodology_upgrade, and Supplementary Tables S9 and S10; manuscript/supplement refreshed (38 references; RECORD+GATHER reporting). Primary numerical results unchanged; canonical_aapc_table.json byte-identical since v1.0.0."
+}

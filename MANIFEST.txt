@@ -1,0 +1,33 @@
+MANIFEST - HPV time-series 2021-2025 reproducibility repository
+GitHub: https://github.com/wujingrui54/hpv-timeseries-2021-2025
+SHA-256 checksums.
+
+9da52c958d69544089c3a3b70519259f8f1fe2b5ae98ac7235bfd42465b208a7         173  .gitignore
+e04e7e5c30e86022fba419058c54973f7a5ed3153d614c2e87662ae33151ffcf        5096  .zenodo.json
+fba3c9eeaec1b8ad6813149980ae39475da05c655c7216d920fd8050c1efe1c8        2775  CHANGELOG.md
+9c493ac853892d53d86e82d4e8bedcba9666a0843381e07fa22406566fbaf56f        1830  LICENSE
+71bf17705ec5944822f5c07771585738e59944b0c17b9f99b730cc52dd05470c        8668  README.md
+9f04537455a846626360af1036197776b5b3f3aa64cec4ee5b1c16e2fa7f00ee       75520  code/hpv_timeseries_complete.ipynb
+1a8c43d33278b7ee919f22bce136d5221a77bd5fd937ce4d54fdd023cc11f10c        9845  code/methodology_upgrade.py
+ece58d38ae1ee1b3a028a31214517172627895a8293c616c683d23b68c2b30c9       17005  code/qc_verification_18185.py
+35faa5724a92cd966f56c691c470dffe7a3f70f2a6341b712bc921d7ce6262e2       21303  data/canonical_aapc_table.json
+89318f97edb21499dbb077c8e1b496b47bd7b4b86433cdba9e62a05cfac83a56       49223  figures/EDF1_STROBE_flow_18185.pdf
+dbbdaa0a29a5ba0103c578cbbb03d52d9d920b3f1aa907d896f5073c21b45845      301879  figures/EDF1_STROBE_flow_18185.png
+f412b0c29ef72a35889ded17d8d175f49738a87ba9ce1b8db4b709dacfc363a4       57684  figures/EDF2_forest_18metric.pdf
+681606a15894681dcee469f13750a729081272ebc01feb9d03bb4b3b1271d75d      186051  figures/EDF2_forest_18metric.png
+c0ba9b19ca032eb9bf3f15c3128718cffe8006f51d051434682f39b7348f8bac       21571  figures/EDF3_joinpoint_4panel.pdf
+2c5c7737818eaf008720776301f81e99737c56ab4a10c74c8024e5e7ecd20bd8      190733  figures/EDF3_joinpoint_4panel.png
+220447e665d0c44842fa48373ccc17247bfc088ad61fe3d78a3d9e460a911bf0       36258  figures/Fig1_main_4panel.pdf
+519079d03d53c2d3a789bfc2ead06e799b58985d492993fd40826b5205780511      294121  figures/Fig1_main_4panel.png
+72d3aee8106a51729e4ba985b556336e1e6af1ec7ff8311cc5971b868e4c2580       22592  figures/Fig2_genotype_landscape.pdf
+a28d1f34be752b686e30a34f812c31fce809b7af69e6f031d11f27b2dd6b3d53      341881  figures/Fig2_genotype_landscape.png
+0cf027802b6769c8990b5473ae617de10fa20c5abc9d2bca9e3dd47a5b3055d8       46389  figures/Fig3_monthly_ITS.pdf
+0691c3fbc33514aca868a959b15d97a0bbabcac49170672ac7f9a96726794bce      547701  figures/Fig3_monthly_ITS.png
+a71a12915c0c83aa7f0c0da2bcfc01bc377088223ac8d752fd38edf1df36efb6       32100  figures/Fig4_SARIMA_forecast.pdf
+8de762b985694839829f7e8fbae4c8f0b503734728d6387ea14dfc9bdf2e1d76      437635  figures/Fig4_SARIMA_forecast.png
+dcde00f22cbfb3b6503695b9667a68556596f2eb0f917b56dd0a027ae9cce42d       79183  figures/Fig5_age_3panel.pdf
+7fca6acc4f90e2709754352e21871dfdb28991b8344d4bb437796f1a443f06a2      301260  figures/Fig5_age_3panel.png
+61919b531aeeac07808f6ba905849b55288e771c685dea0bfb0bae57d20207ca       51728  figures/FigS6_methodology_upgrade.pdf
+5b1011bf83c31a8edfdfdba8de013d02f5285099701e08d1fba397eee45cabf2      453423  figures/FigS6_methodology_upgrade.png
+90c0c2b69bee98aa3e5b30c66d82011c1893c788c542384a7d0589210ec5ee73      839644  manuscript/manuscript.docx
+1ca57a4023220bdd77f9e16fba407482703275fe4acd55396f043f0a81814b64     2551542  manuscript/supplementary_appendix.docx
